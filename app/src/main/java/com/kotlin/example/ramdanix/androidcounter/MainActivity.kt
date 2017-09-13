@@ -7,8 +7,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    var scoreLeft : Int = 0;
-    var scoreRight : Int = 0;
+    private var scoreLeft : Int = 0;
+    private var scoreRight : Int = 0;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
